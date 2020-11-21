@@ -44,8 +44,7 @@ public class Flight {
                 System.out.println("Passager " + passenger + "embarqué");
                 break;
 
-            }
-            else if (j == mSeatsNb-1) {
+            } else if (j == mSeatsNb - 1) {
                 System.out.println("L'avion est plein, le passager " + passenger + "ne peut pas embarquer");
                 break;
             }
